@@ -537,6 +537,16 @@ h1, h2, h3, h4, h5, h6 {
   content: "";
 }
 
+.hero__img.svg img {
+  width: 550px;
+}
+
+@media (max-width: 1024px) {
+  .hero__img.svg img  {
+    width: 450px;
+    top: -20px;
+  }
+}
 /*================Features===================*/
 .features {
   display: grid;
@@ -581,6 +591,39 @@ h1, h2, h3, h4, h5, h6 {
 }
 .features__list li:last-child {
   margin-bottom: 0px;
+}
+
+.features__img.svg img {
+    width: 600px;
+}
+
+@media (max-width: 1024px) {
+  .features__img.svg img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 960px) {
+  .features__content {
+    gap: unset;
+  }
+
+  .features__img.svg {
+    top: -50px;
+  }
+
+  .features__img.svg img {
+    width: 550px;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 480px) {
+  .features__img.svg img {
+    width: 360px;
+  }
 }
 
 /*============Choose Your Plan================*/
@@ -1027,6 +1070,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 20px;
     margin-left: -20px;
   }
+
+  .hero__img.svg img {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 @media (max-width: 960px) {
   /*============Global Network================*/
@@ -1175,6 +1223,10 @@ h1, h2, h3, h4, h5, h6 {
   /*=============Plan==============*/
   .plan__item {
     padding: 40px 40px 50px;
+  }
+
+  .hero__img.svg img {
+    width: 300px;
   }
 }
 /*==================Disable animation for mobile and tablet=====================*/
