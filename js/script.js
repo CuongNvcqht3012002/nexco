@@ -5,7 +5,7 @@ window.addEventListener('scroll', function () {
 });
 
 /*=======================Refresch page when change width or height=============================*/
-$(window).on('resize',function(){location.reload();});
+// $(window).on('resize',function(){location.reload();});
 
 /*=======================Menu for mobile=============================*/
 $(document).ready(function () {
