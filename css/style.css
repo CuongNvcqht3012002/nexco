@@ -655,7 +655,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 10px;
   grid-auto-flow: row;
   grid-template: auto auto 1fr auto minmax(45px, auto)/1fr;
-  padding: 70px 70px 50px;
+  padding: 70px 40px 50px;
   transition: 0.4s color ease, 0.4s transform ease;
   transform: translate(0, 0);
 }
