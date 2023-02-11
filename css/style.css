@@ -296,7 +296,18 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   padding: 0px 15px 10px;
 }
+@media (max-width: 768px) {
+  .header__logo {
+    margin-top: 20px;
+  }
+}
 
+@media (max-width: 480px) {
+  .header__logo {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
 /*==============================Preloader=========================================*/
 #preloader {
   align-items: center;
@@ -605,6 +616,22 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (max-width: 480px) {
+  .features__text-title {
+    font-size: 32px;
+    line-height: 40px;
+    margin-top: 42px;
+  }
+}
+
+@media (max-width: 320px) {
+  .features__text-title {
+    font-size: 26px;
+    line-height: 38px;
+    margin-top: 86px;
+  }
+}
+
 @media (max-width: 960px) {
   .features__content {
     gap: unset;
@@ -718,8 +745,9 @@ h1, h2, h3, h4, h5, h6 {
   grid-template: 1fr/1fr minmax(auto, 1200px) 1fr;
   text-align: center;
   padding: 0px 15px;
-  margin: 150px 0px 0px 0px;
+  margin: 100px 0px 0px 0px;
 }
+
 .network__content {
   display: grid;
   height: 100%;
@@ -729,8 +757,18 @@ h1, h2, h3, h4, h5, h6 {
 .network .map-container {
   height: 500px;
   max-width: 100%;
-  margin: 100px 0px 40px 0px;
+  margin: 90px 0px 40px 0px;
 }
+
+@media (max-width: 1024px) {
+  .network {
+    margin-top: 60px;
+  }
+  .network .map-container {
+    margin-top: 50px;
+  }
+}
+
 .network .jvmap-smart {
   width: 100%;
   height: 100%;
@@ -755,7 +793,7 @@ h1, h2, h3, h4, h5, h6 {
   grid-column: 2/3;
   grid-auto-flow: row;
   gap: 60px 0px;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 .reviews__slider {
   position: relative;
